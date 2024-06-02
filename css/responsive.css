@@ -1,0 +1,179 @@
+/* レスポンシブ */
+@media screen and (max-width:480px) {
+    nav {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav_container {
+        width: 100%;
+    }
+
+    #nav_container ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #nav_container ul li {
+        width: 30%;
+        margin: auto;
+    }
+
+    nav small {
+        margin-bottom: 10px;
+    }
+
+    /* #profile_container {
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    #info {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #text {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        text-align: justify;
+    } */
+
+    /* #support_container {
+        width: 80%;
+    }
+
+    #about {
+        width: 50%;
+        left: 0;
+        right: 0;
+        margin: auto auto 30px auto;
+    }
+
+    #about::after {
+        left: 5%;
+    } */
+
+
+    .preview_title {
+        opacity: 1;
+    }
+
+    #works_container {
+        width: 80%;
+    }
+
+    .works_item {
+        width: 100%;
+    }
+
+    .md-contents {
+        width: 90% !important;
+        height: 85vh !important;
+        min-height: 85vh !important;
+        min-height: calc(var(85vh, 1vh) * 100) !important;
+    }
+
+    #works {
+        width: 60%;
+
+    }
+
+    #works::after {
+        left: 5%;
+    }
+
+    .info-container {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .info-item {
+        width: 100%;
+    }
+
+    .history-title {
+        width: 100%;
+    }
+
+    .char-img {}
+
+    .char-info-titie {
+        position: relative;
+        width: 100% !important;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    #nearl-info,
+    #mlynar-info,
+    #Goldenglow-info,
+    #Dorothy-info,
+    #Lee-info,
+    #Irene-info,
+    #Texas-info,
+    #Skadi-info,
+    #Specter-info,
+    #Ling-info {
+        width: 100% !important;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    #nearl-info img {
+        width: 200%;
+    }
+
+
+    .char-bg,
+    .c-name,
+    .c-logo,
+    .p2-pos,
+    .p3-pos,
+    .p4-pos {
+        display: none;
+    }
+
+    .works_item iframe {
+        width: 100%;
+        height: 180px;
+    }
+
+    .md-xmark {
+        top: 4% !important;
+        right: 1% !important;
+    }
+
+    .page_top {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .page_top a,
+    .page_top a::before,
+    .page_top a::after {
+        color: rgb(0, 0, 0) !important;
+        background: #fff;
+    }
+
+    .page_top:hover {
+        opacity: 1;
+    }
+
+    .footer-logo {
+        width: 80%;
+        padding: 30px 0;
+    }
+
+}
